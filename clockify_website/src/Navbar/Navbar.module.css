@@ -1,0 +1,61 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.3s ease;
+    scroll-behavior: smooth;
+}
+
+
+.HNavbar{
+    height: 70px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    background-color: #ecf2f8;
+}
+.HNav1{
+    height: 100%;
+    width: 40%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.HNav2{
+    height: 100%;
+    width: 20%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.HNav2_signup{
+    height: 40px;
+    width: 160px;
+    border: 1px solid #03A9F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #03A9F4;
+
+}
+.HNav2_signup:hover{
+    cursor: pointer;
+    background-color: #03A9F4;
+    color: white;
+
+}
+.HNav1_fd{
+    margin-right: 40px;
+    font-size: 15px;
+}
+.HNav1_fd:hover{
+    cursor: pointer;
+    color: #03A9F4;
+}

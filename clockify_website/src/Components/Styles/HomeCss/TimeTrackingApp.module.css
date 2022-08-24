@@ -1,0 +1,76 @@
+.Container{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-color: #ecf2f8;
+    padding-bottom: 100px;
+}
+.Everywere_div1{
+    height: 20%;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.Everywere_div1>div>h2{
+color: #3D4853;
+font-size: 34px;
+}
+.Everywere_div1>div{
+    width: 45%;
+    margin: auto;
+}
+
+.Everywere_div1>div>p{
+color: #5A6B7B;
+font-size: 21px;
+}
+
+
+
+
+.Everywere_div2{
+    height: 80%;
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: auto;
+    padding: 10px;
+    background-color: #ecf2f8;
+}
+.Everywere_div2_img{
+    height: 85%;
+    /* border: 1px solid red; */
+    
+}
+.Everywere_div2_img>img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.Everywere_div2_text{
+    height: 5%;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.Everywere_div2_btn{
+    height: 10%;
+    /* border: 1px solid red; */
+text-align: center;
+}
+.Everywere_div2_btn>button{
+    border: 1px solid #03A9F4;
+    color: #03A9F4;
+    margin: 5px;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+   
+}
+.Everywere_div2_btn>button:hover{
+    background-color: #03A9F4;
+    color: #FFFFFF;
+    cursor: pointer;
+}
