@@ -1,0 +1,98 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.Container{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid red;   */
+    
+}
+.Container1{
+    height: 200px;
+    width: 100%;
+    /* border: 1px solid red; */
+    text-align: center;
+   
+}
+
+.Container2{
+    height: auto;
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: auto;
+    padding: 20px;
+}
+/* ------------------------------------------------------------------------- */
+.Container3{
+    height: 60px;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-top: 150px;  
+}
+
+.Container3{
+    text-align: center;
+}
+.Features_button{
+   
+    width: 20%;
+}
+
+/* ------------------------------------------------------------------------- */
+.Features_header{
+    margin-top: 10px;
+}
+.Features_header>h2{
+font-size: 34px;
+color: #3D4853;
+}
+.Features_text_about{
+    width: 45%;
+    margin: auto;
+    margin-top: 10px;
+}
+.Features_text_about>p{
+    font-size: 21px;
+    color: #5A6B7B;
+}
+
+.Homepage_h3{
+    font-size: 20px;
+    color: #78909C;
+}
+
+
+.Homepage_Griditem{
+    height: 18%;
+    width: 80%;
+    /* border: 1px solid red; */
+
+}
+
+.Homepage_Griditem_img_div{
+    height: 100%;
+    width: 100%;
+}
+.Homepage_Griditem_img{
+    height: 100%;
+    width: 100%;
+}
+
+.Homepage_span1{
+    font-weight: bold;
+}
+
+.Homepage_span2{
+   color: #78909C;
+   font-size: 14px;
+}
+
+.Homepage_Griditem:hover{
+    color: #088ecc;
+    cursor: pointer;
+
+}

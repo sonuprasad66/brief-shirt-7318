@@ -1,6 +1,69 @@
 
 .Container{
-    height: 100px;
+    height: 400px;
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    text-align: center;
+    padding-top: 60px;
+    background-color: #ecf2f8;
+}
+
+.Container h1{              
+    font-size: 40px;
+    line-height: 64px;
+    color: #3D4859;
+    font-weight: 400;
+}
+
+.h1time_tracker{
+    color: #03A9F4;
+}
+
+.Header__desc{
+    width: 50%;
+    height: 200px;
+    margin: 10px auto;
+    font-size: 20px;
+    color: #5A6B7B;
+}
+
+.Hero_stars{
+    width: 40%;
+    height: 10px;
+    margin: 20px auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.Hero_stars2{
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.Header__button_div{
+    margin-top: -50px;
+}
+.Header__button{
+    height: 50px;
+    width: 300px;
+    background-color: #0288D1;
+    color: white;
+    font-size: 23px;
+    border-radius: 7px;
+}
+.Header__text{
+    width: 40%;
+    height: 10px;
+    margin: 10px auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.Header__text>a{
+    color: #01579B;
+    margin-left: 10px;
+    font-size: 13px;
+}
+.Header__text:hover{
+    text-decoration: underline;
 }
