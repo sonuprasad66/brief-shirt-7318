@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import styles from "./Navbar.module.css";
 
 export const HomeNavbar = () => {
@@ -22,8 +23,12 @@ export const HomeNavbar = () => {
       </div>
 
       <div className={styles.HNav2}>
-        <div className={styles.HNav1_fd}>LOGIN</div>
-        <div className={styles.HNav2_signup}>SIGN UP FREE</div>
+        <div className={styles.HNav1_fd}>
+          <Link to="/login">LOGIN</Link>
+        </div>
+        <div className={styles.HNav2_signup}>
+          <Link to="/signup">SIGN UP FREE</Link>
+        </div>
       </div>
     </div>
   );

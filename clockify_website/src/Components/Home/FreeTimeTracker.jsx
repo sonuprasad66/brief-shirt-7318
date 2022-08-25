@@ -37,7 +37,7 @@ export const FreeTimeTracker = () => {
           src="https://clockify.me/assets/images/signed-up-icon.svg"
           alt="p"
         />
-        <a href="#">76,318 people signed up last month</a>
+        <a href="#">135,920 people signed up last month</a>
       </div>
     </div>
   );
