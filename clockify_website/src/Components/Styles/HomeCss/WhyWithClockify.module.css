@@ -1,12 +1,13 @@
 .Container{
     height: auto;
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+
 }
 .Advantage_box1{
     height: 20%;
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: center;
     padding: 100px 0px 60px 0px;
 }
@@ -17,9 +18,114 @@
 
 
 
+
+
+/* ============================Advantage_box2=========================================================== */
+
 .Advantage_box2{
-    height: 80;
-    width: 80%;
+    height: 80%;
+    width: 85%;
     border: 1px solid red;
     margin: auto;
+    padding: 30px;
 }
+
+.Advantage_row_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+.Advantage_row_box:hover{
+    cursor: pointer;
+   margin: -3px;
+}
+
+.Advantage_row_box_content{
+height: 70%;
+width: 75%;
+border: 1px solid red;
+}
+
+.Advantage_row_box_content1{
+    height: 45%;
+width: 100%;
+border: 1px solid red;
+
+}
+.Advantage_row_box_content2{
+    height: 45%;
+width: 100%;
+border: 1px solid red;
+
+}
+.Advantage_row_box_content3{
+    height: 10%;
+width: 100%;
+border: 1px solid red;
+
+}
+
+/* ======================================================================================= */
+/* ======================================Uniqueness Price================================================= */
+.Uniqueness_price{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-color: #ecf2f8;
+    display: flex;
+   padding: 100px 0px 100px 0px;
+   
+}
+.Uniqueness_price_box{
+    height: 90%;
+    width: 60%;
+    /* border: 1px solid red; */
+  margin: auto;
+}
+.Uniqueness_price_box_img{
+    height: 100%;
+    width: 100%;
+}
+
+.Uniqueness_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Uniqueness_text_item{
+    height: auto;
+    width: auto;
+    /* border: 1px solid red; */
+}
+.Uniqueness_text_item_p{
+    font-size: 72px;
+    color: #03A9F4;
+  
+}
+.Uniqueness_text_item_2{
+    font-size: 36px;
+    color: #03A9F4;
+    line-height: 10px;
+   
+   
+}
+.Uniqueness_text_item_li{
+    color: #03A9F4;
+    font-size: 18px;
+}
+.Uniqueness_text_item_lit{
+    color: #5A6B7B;
+    font-size: 18px;
+   
+}
+.Uniqueness_price_text_a{
+    margin-top: 10px;
+    color: #03A9F4;
+}
+
+
+
+/* ======================================================================================= */

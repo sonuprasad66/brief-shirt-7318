@@ -1,0 +1,194 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: #ecf2f8; */
+}
+.Main{
+    background-color: #ecf2f8;
+}
+.Signup_navbar{
+   height: 80px;
+   width: 100%;
+  
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Signup_navbar>div{
+margin: 150px;
+}
+.Signup_navbar_login{
+    color: blue;
+}
+.Signup_text{
+    height: 150px;
+    width: 100%;
+     /* border: 1px solid red; */
+     text-align: center;
+     /* background-color: #ecf2f8; */
+}
+
+.Signup_text1{
+font-size: 34px;
+margin-top: 10px;
+}
+
+.Signup_text2{
+font-size: 21px;
+color: #666666;
+margin-top: 10px;
+}
+
+.Signup_text3{
+font-size: 15px;
+color: #999999;
+margin-top: 10px;
+}
+
+/* ------------------------------------------------------- */
+.Signup_input_box{
+   
+    height: 400px;
+    width: 28%;
+    /* border: 1px solid red; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #FFFFFF;
+    margin: auto;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.Signup_inner_input_box{
+    height: 90%;
+    width: 80%;
+    background-color: #FFFFFF;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+
+.Input_email{
+    height: 45px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(189, 184, 184);
+    margin-top: 20px;
+    font-size: 15px;
+    padding-left: 10px;
+
+}
+.Input_h2{
+    margin-top: 10px;
+    background-color: #FFFFFF;
+    font-size: 20px;
+}
+
+.Input_checkbox{
+    background-color: #FFFFFF;
+    margin: 15px 0px 10px 0px;
+}
+.Input_checkbox>a{
+    color: blue;
+}
+.Input_checkbox>label{
+    background-color: #FFFFFF;
+}
+
+.Signup_btn{
+    height: 45px;
+    width: 100%;
+    background-color: #4ab3e4;
+    border-radius: 1px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Signup_or{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Signup_l{
+    border: 1px solid rgb(204, 201, 201);
+   width: 50%;
+  
+}
+.Signup_or>span{
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+
+.Signup_google{
+    height: 50px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(189, 184, 184);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.Signup_google:hover{
+    cursor: pointer;
+    background-color: #ebe1e1;
+}
+
+.Signup_google>img{
+    font-size: 20px;
+    background-color: #FFFFFF;
+}
+.Signup_google>span{
+    color: #666666;
+    font-size: 14px;
+    margin-right: 50px;
+    background-color: #FFFFFF;
+}
+.Signup_google>span:hover{
+    background-color: #ebe1e1;
+}
+
+.Signup_after{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.Signup_language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Signup_language>span{
+    color: #666666;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+
+.Signup_condition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.Signup_condition>span{
+    color: #333333;
+    font-size: 14px;
+margin-left: 10px;
+}
+
+.Signup_condition>a{
+    color: blue;
+    font-size: 14px;
+margin-left: 5px;
+}
+.Signup_condition>a:hover{
+    text-decoration: underline;
+}
