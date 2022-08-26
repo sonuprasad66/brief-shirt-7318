@@ -1,175 +1,152 @@
-
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Roboto', sans-serif;
-   
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
 }
-
-
 
 /* ##############################  Millions  ############################################## */
 
-.Millions{
-    height: auto;
-    width: 100%;
-    /* border: 1px solid red; */
-    padding: 100px 0px 100px 0px;
-    border-top: 1px solid rgb(219, 213, 213);
+.Millions {
+  height: auto;
+  width: 100%;
+  /* border: 1px solid red; */
+  padding: 100px 0px 100px 0px;
+  border-top: 1px solid rgb(219, 213, 213);
 }
 /* ================================================================================ */
-.Millions_box1{
-    height: 20%;
-    width: 100%;
-    /* border: 1px solid red; */
-}
-/* ================================================================================ */
-
-.Millions_box2{
-    height: 10%;
-    width: 100%;
-    /* border: 1px solid red; */
-    padding: 30px 0px 30px 0px;
-}
-.Millions_box2_img{
-    height: 40px;
+.Millions_box1 {
+  height: 20%;
+  width: 100%;
+  /* border: 1px solid red; */
 }
 /* ================================================================================ */
 
-.Millions_box3{
-    height: 70%;
-    width: 100%;
-    /* border: 1px solid red; */
-    padding: 20px;
-   
+.Millions_box2 {
+  height: 10%;
+  width: 100%;
+  /* border: 1px solid red; */
+  padding: 30px 0px 30px 0px;
 }
-.Millions_box3_text{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    background-color: #FFFFFF;
-    padding: 25px;
-}
-.Millions_box3_text:hover{
-    margin: -2px;
-    cursor: pointer;
-}
-.Millions_box3_text1{
-    color: #5A6B7B;
-    font-size: 15px;
-}
-.Millions_box3_text2{
-    color: #FFBF00;
-    font-size: 16px;
-    margin-top: 10px;
-}
-.Millions_box3_text3{
-    color: #718191;
-    font-size: 12px;
-    margin-top: 10px;
-}
-.Millions_box3_text4{
-    color: #718191;
-    font-size: 10px;
-    margin-top: 10px;
+.Millions_box2_img {
+  height: 40px;
 }
 /* ================================================================================ */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.Millions_box3 {
+  height: 70%;
+  width: 100%;
+  /* border: 1px solid red; */
+  padding: 20px;
+}
+.Millions_box3_text {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #ffffff;
+  padding: 25px;
+}
+.Millions_box3_text:hover {
+  margin: -2px;
+  cursor: pointer;
+}
+.Millions_box3_text1 {
+  color: #5a6b7b;
+  font-size: 15px;
+}
+.Millions_box3_text2 {
+  color: #ffbf00;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.Millions_box3_text3 {
+  color: #718191;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.Millions_box3_text4 {
+  color: #718191;
+  font-size: 10px;
+  margin-top: 10px;
+}
+/* ================================================================================ */
 
 /* ###################################################################################### */
 
-
-
-
-.Worlod_Class_support{
-    height: auto;
-    width: 100%;
-    /* border: 1px solid red; */
-    /* text-align: center; */
-    display: flex;
-    padding: 100px 0px 100px 0px ;
+.Worlod_Class_support {
+  height: auto;
+  width: 100%;
+  /* border: 1px solid red; */
+  /* text-align: center; */
+  display: flex;
+  padding: 100px 0px 100px 0px;
 }
-.Worlod_Class_support_box{
-    height: 80%;
-    width: 100%;
-    /* border: 1px solid red; */
-   /* margin: auto; */
-   
+.Worlod_Class_support_box {
+  height: 80%;
+  width: 100%;
+  /* border: 1px solid red; */
+  /* margin: auto; */
 }
 /* ================================================================================= */
-.Worlod_Class_support_box_grid{
-    width: 50%;
-   margin: auto;
-   margin-top: 30px;
-   margin-bottom: 50px;
+.Worlod_Class_support_box_grid {
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
-.Worlod_Class_support_box_grid_text{
-    display: flex;
-    justify-content: space-between;
-    
+.Worlod_Class_support_box_grid_text {
+  display: flex;
+  justify-content: space-between;
 }
-.Worlod_Class_support_box_grid_icon{
-    height: 40px;
-    width: 40px;
-    
+.Worlod_Class_support_box_grid_icon {
+  height: 40px;
+  width: 40px;
 }
-.Worlod_Class_support_box_grid_icon_ds{
-    color: #3D4853;
-    font-size: 28px;
+.Worlod_Class_support_box_grid_icon_ds {
+  color: #3d4853;
+  font-size: 28px;
 }
-.Worlod_Class_support_box_grid_icon_d{
-    margin-left: 20px;
-    color: #78909C;
-    font-size: 14px;
+.Worlod_Class_support_box_grid_icon_d {
+  margin-left: 20px;
+  color: #78909c;
+  font-size: 14px;
 }
 /* ================================================================================= */
-.Worlod_Class_support_box_s1{
-    font-size: 12px;
-    color: #78909C;
-    text-align: center;
+.Worlod_Class_support_box_s1 {
+  font-size: 12px;
+  color: #78909c;
+  text-align: center;
 }
-.Worlod_Class_support_box_h2{
-    font-size: 34px;
-    color: #3D4853;
-    margin-top: 5px;
-    text-align: center;
+.Worlod_Class_support_box_h2 {
+  font-size: 34px;
+  color: #3d4853;
+  margin-top: 5px;
+  text-align: center;
 }
-.Worlod_Class_support_box_p{
-    font-size: 21px;
-    color: #5A6B7B;
-    margin-top: 10px;
-    text-align: center;
+.Worlod_Class_support_box_p {
+  font-size: 21px;
+  color: #5a6b7b;
+  margin-top: 10px;
+  text-align: center;
 }
 
-
-.Worlod_Class_support_box_a{
-    font-size: 16px;
-    color: #03A9f4;
-    height: 40px;
-    width: 130px;
-    border: 1px solid #03A9f4;
-    margin: auto;
-    border-radius: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.Worlod_Class_support_box_a {
+  font-size: 16px;
+  color: #03a9f4;
+  height: 40px;
+  width: 130px;
+  border: 1px solid #03a9f4;
+  margin: auto;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.Worlod_Class_support_box_s2{
-    font-size: 12px;
-    color: #78909C;
-    text-align: center;
-    margin-top: 10px;
+.Worlod_Class_support_box_a:hover{
+    cursor: pointer;
+    background-color: #03a9f4;
+    color: #FFFFFF;
+}
+.Worlod_Class_support_box_s2 {
+  font-size: 12px;
+  color: #78909c;
+  text-align: center;
+  margin-top: 10px;
 }

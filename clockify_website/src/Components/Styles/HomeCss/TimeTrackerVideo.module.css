@@ -2,26 +2,69 @@
 .Container{
     height: auto;
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .Customer_logo{
     height: 10%;
     width: 85%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
    display: flex;
    justify-content: center;
 }
 
 .Customer_video_img{
+    position: relative;
     height: 90%;
     width: 85%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
 }
-/* .Customer_video_logo{
+.Customer_video_logo{
     position: absolute;
-    left: 600px;
-    bottom: 400px;
-} */
+    z-index: 10;
+    top: 300px;
+    right: 50%;
+    cursor: pointer;
+   
+}
+
+
+/* ================================================================================= */
+
+.toggle_btn{
+    width: 60px;
+    height: 26px;
+    /* border: 1px solid red; */
+    border-radius: 25px;
+    display: flex;
+    margin: auto;
+    background-color: grey;
+    margin-bottom: 30px;
+}
+
+
+.span1{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    display: block;
+    border: 7px solid black;
+    background-color: black;
+    border-radius: 50%;
+   
+}
+.span2{
+    width: 25px;
+    height: 25px;
+    margin-left: 50%;
+    cursor: pointer;
+    display: block;
+    border: 7px solid white;
+    background-color: white;
+    border-radius: 50%;
+   
+}
+
+

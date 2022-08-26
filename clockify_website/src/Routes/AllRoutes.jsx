@@ -5,6 +5,8 @@ import {FeturesPage} from "./FeturesPage";
 import {Home} from "./Home";
 import {Login} from "./Login";
 import {SignUp} from "./SignUp";
+import {TrackerPage} from "../Components/Tracker/TrackerPage";
+import {PrivateRoutes} from "./PrivateRoutes";
 
 export const AllRoutes = () => {
   return (
@@ -15,6 +17,14 @@ export const AllRoutes = () => {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/features" element={<FeturesPage />} />
         <Route path="/download" element={<DownloadPage />} />
+        <Route
+          path="/tracker"
+          element={
+            // <PrivateRoutes>
+              <TrackerPage />
+            // </PrivateRoutes>
+          }
+        />
       </Routes>
     </div>
   );

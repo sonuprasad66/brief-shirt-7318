@@ -1,8 +1,15 @@
 import React from "react";
 import styles from "../Styles/HomeCss/FreeTimeTracker.module.css";
 import {Button} from "@chakra-ui/react";
+import {Link, useNavigate} from "react-router-dom";
+import {PrivateRoutes} from "../../Routes/PrivateRoutes";
 
 export const FreeTimeTracker = () => {
+  const nevigate = useNavigate();
+  const handleStart = () => {
+    nevigate("/tracker");
+  };
+
   return (
     <div className={styles.Container}>
       <h1>
@@ -27,7 +34,7 @@ export const FreeTimeTracker = () => {
         </div>
       </div>
       <div className={styles.Header__button_div}>
-        <button className={styles.Header__button} colorScheme="blue">
+        <button className={styles.Header__button} onClick={handleStart}>
           Get Started - It's Free!
         </button>
       </div>
