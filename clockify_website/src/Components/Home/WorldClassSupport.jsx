@@ -140,120 +140,292 @@ export const WorldClassSupport = () => {
         {/* -------------------------------------------------------------------------- */}
         <div className={styles.Millions_box3}>
           <SimpleGrid columns={[1, 2, 3, 4]} spacing="20px">
-            <Box
-              className={styles.Millions_box3_text}
-              bg=""
-              height="200px"
-            >
-              <div  className={styles.Millions_box3_text1}><p>A game-changer for remote work</p></div>
-              <div  className={styles.Millions_box3_text2}><p>★★★★★</p></div>
-              <div  className={styles.Millions_box3_text3}><p>I can track on my phone - a few taps and I'm ready to get onto my work.</p></div>
-              <div  className={styles.Millions_box3_text4}><p>— Kerri MacKay, Coordinator</p></div>
+            <Box className={styles.Millions_box3_text} bg="" height="200px">
+              <div className={styles.Millions_box3_text1}>
+                <p>A game-changer for remote work</p>
+              </div>
+              <div className={styles.Millions_box3_text2}>
+                <p>★★★★★</p>
+              </div>
+              <div className={styles.Millions_box3_text3}>
+                <p>
+                  I can track on my phone - a few taps and I'm ready to get onto
+                  my work.
+                </p>
+              </div>
+              <div className={styles.Millions_box3_text4}>
+                <p>— Kerri MacKay, Coordinator</p>
+              </div>
             </Box>
 
             <Box className={styles.Millions_box3_text} height="200px">
-            <div  className={styles.Millions_box3_text1}><p>A game-changer for remote work</p></div>
-              <div  className={styles.Millions_box3_text2}><p>★★★★★</p></div>
-              <div  className={styles.Millions_box3_text3}><p>I can track on my phone - a few taps and I'm ready to get onto my work.</p></div>
-              <div  className={styles.Millions_box3_text4}><p>— Kerri MacKay, Coordinator</p></div>
+              <div className={styles.Millions_box3_text1}>
+                <p>A game-changer for remote work</p>
+              </div>
+              <div className={styles.Millions_box3_text2}>
+                <p>★★★★★</p>
+              </div>
+              <div className={styles.Millions_box3_text3}>
+                <p>
+                  I can track on my phone - a few taps and I'm ready to get onto
+                  my work.
+                </p>
+              </div>
+              <div className={styles.Millions_box3_text4}>
+                <p>— Kerri MacKay, Coordinator</p>
+              </div>
             </Box>
             {/* -------------------------------------------------------------------------- */}
             <Box className={styles.Millions_box3_text} height="200px">
-            <div  className={styles.Millions_box3_text1}><p>A game-changer for remote work</p></div>
-              <div  className={styles.Millions_box3_text2}><p>★★★★★</p></div>
-              <div  className={styles.Millions_box3_text3}><p>I can track on my phone - a few taps and I'm ready to get onto my work.</p></div>
-              <div  className={styles.Millions_box3_text4}><p>— Kerri MacKay, Coordinator</p></div>
+              <div className={styles.Millions_box3_text1}>
+                <p>A game-changer for remote work</p>
+              </div>
+              <div className={styles.Millions_box3_text2}>
+                <p>★★★★★</p>
+              </div>
+              <div className={styles.Millions_box3_text3}>
+                <p>
+                  I can track on my phone - a few taps and I'm ready to get onto
+                  my work.
+                </p>
+              </div>
+              <div className={styles.Millions_box3_text4}>
+                <p>— Kerri MacKay, Coordinator</p>
+              </div>
             </Box>
             {/* -------------------------------------------------------------------------- */}
             <Box className={styles.Millions_box3_text} height="200px">
-            <div  className={styles.Millions_box3_text1}><p>A game-changer for remote work</p></div>
-              <div  className={styles.Millions_box3_text2}><p>★★★★★</p></div>
-              <div  className={styles.Millions_box3_text3}><p>I can track on my phone - a few taps and I'm ready to get onto my work.</p></div>
-              <div  className={styles.Millions_box3_text4}><p>— Kerri MacKay, Coordinator</p></div>
+              <div className={styles.Millions_box3_text1}>
+                <p>A game-changer for remote work</p>
+              </div>
+              <div className={styles.Millions_box3_text2}>
+                <p>★★★★★</p>
+              </div>
+              <div className={styles.Millions_box3_text3}>
+                <p>
+                  I can track on my phone - a few taps and I'm ready to get onto
+                  my work.
+                </p>
+              </div>
+              <div className={styles.Millions_box3_text4}>
+                <p>— Kerri MacKay, Coordinator</p>
+              </div>
             </Box>
             {/* -------------------------------------------------------------------------- */}
             <Box className={styles.Millions_box3_text} height="200px">
-            <div  className={styles.Millions_box3_text1}><p>A game-changer for remote work</p></div>
-              <div  className={styles.Millions_box3_text2}><p>★★★★★</p></div>
-              <div  className={styles.Millions_box3_text3}><p>I can track on my phone - a few taps and I'm ready to get onto my work.</p></div>
-              <div  className={styles.Millions_box3_text4}><p>— Kerri MacKay, Coordinator</p></div>
+              <div className={styles.Millions_box3_text1}>
+                <p>A game-changer for remote work</p>
+              </div>
+              <div className={styles.Millions_box3_text2}>
+                <p>★★★★★</p>
+              </div>
+              <div className={styles.Millions_box3_text3}>
+                <p>
+                  I can track on my phone - a few taps and I'm ready to get onto
+                  my work.
+                </p>
+              </div>
+              <div className={styles.Millions_box3_text4}>
+                <p>— Kerri MacKay, Coordinator</p>
+              </div>
             </Box>
             {/* -------------------------------------------------------------------------- */}
             <Box className={styles.Millions_box3_text} height="200px">
-            <div  className={styles.Millions_box3_text1}><p>A game-changer for remote work</p></div>
-              <div  className={styles.Millions_box3_text2}><p>★★★★★</p></div>
-              <div  className={styles.Millions_box3_text3}><p>I can track on my phone - a few taps and I'm ready to get onto my work.</p></div>
-              <div  className={styles.Millions_box3_text4}><p>— Kerri MacKay, Coordinator</p></div>
+              <div className={styles.Millions_box3_text1}>
+                <p>A game-changer for remote work</p>
+              </div>
+              <div className={styles.Millions_box3_text2}>
+                <p>★★★★★</p>
+              </div>
+              <div className={styles.Millions_box3_text3}>
+                <p>
+                  I can track on my phone - a few taps and I'm ready to get onto
+                  my work.
+                </p>
+              </div>
+              <div className={styles.Millions_box3_text4}>
+                <p>— Kerri MacKay, Coordinator</p>
+              </div>
             </Box>
             {/* -------------------------------------------------------------------------- */}
             <Box className={styles.Millions_box3_text} height="200px">
-            <div  className={styles.Millions_box3_text1}><p>A game-changer for remote work</p></div>
-              <div  className={styles.Millions_box3_text2}><p>★★★★★</p></div>
-              <div  className={styles.Millions_box3_text3}><p>I can track on my phone - a few taps and I'm ready to get onto my work.</p></div>
-              <div  className={styles.Millions_box3_text4}><p>— Kerri MacKay, Coordinator</p></div>
+              <div className={styles.Millions_box3_text1}>
+                <p>A game-changer for remote work</p>
+              </div>
+              <div className={styles.Millions_box3_text2}>
+                <p>★★★★★</p>
+              </div>
+              <div className={styles.Millions_box3_text3}>
+                <p>
+                  I can track on my phone - a few taps and I'm ready to get onto
+                  my work.
+                </p>
+              </div>
+              <div className={styles.Millions_box3_text4}>
+                <p>— Kerri MacKay, Coordinator</p>
+              </div>
             </Box>
             {/* -------------------------------------------------------------------------- */}
             <Box className={styles.Millions_box3_text} height="200px">
-            <div  className={styles.Millions_box3_text1}><p>A game-changer for remote work</p></div>
-              <div  className={styles.Millions_box3_text2}><p>★★★★★</p></div>
-              <div  className={styles.Millions_box3_text3}><p>I can track on my phone - a few taps and I'm ready to get onto my work.</p></div>
-              <div  className={styles.Millions_box3_text4}><p>— Kerri MacKay, Coordinator</p></div>
+              <div className={styles.Millions_box3_text1}>
+                <p>A game-changer for remote work</p>
+              </div>
+              <div className={styles.Millions_box3_text2}>
+                <p>★★★★★</p>
+              </div>
+              <div className={styles.Millions_box3_text3}>
+                <p>
+                  I can track on my phone - a few taps and I'm ready to get onto
+                  my work.
+                </p>
+              </div>
+              <div className={styles.Millions_box3_text4}>
+                <p>— Kerri MacKay, Coordinator</p>
+              </div>
             </Box>
             {/* -------------------------------------------------------------------------- */}
             <Box className={styles.Millions_box3_text} height="200px">
-            <div  className={styles.Millions_box3_text1}><p>A game-changer for remote work</p></div>
-              <div  className={styles.Millions_box3_text2}><p>★★★★★</p></div>
-              <div  className={styles.Millions_box3_text3}><p>I can track on my phone - a few taps and I'm ready to get onto my work.</p></div>
-              <div  className={styles.Millions_box3_text4}><p>— Kerri MacKay, Coordinator</p></div>
+              <div className={styles.Millions_box3_text1}>
+                <p>A game-changer for remote work</p>
+              </div>
+              <div className={styles.Millions_box3_text2}>
+                <p>★★★★★</p>
+              </div>
+              <div className={styles.Millions_box3_text3}>
+                <p>
+                  I can track on my phone - a few taps and I'm ready to get onto
+                  my work.
+                </p>
+              </div>
+              <div className={styles.Millions_box3_text4}>
+                <p>— Kerri MacKay, Coordinator</p>
+              </div>
             </Box>
             {/* -------------------------------------------------------------------------- */}
             <Box className={styles.Millions_box3_text} height="200px">
-            <div  className={styles.Millions_box3_text1}><p>A game-changer for remote work</p></div>
-              <div  className={styles.Millions_box3_text2}><p>★★★★★</p></div>
-              <div  className={styles.Millions_box3_text3}><p>I can track on my phone - a few taps and I'm ready to get onto my work.</p></div>
-              <div  className={styles.Millions_box3_text4}><p>— Kerri MacKay, Coordinator</p></div>
+              <div className={styles.Millions_box3_text1}>
+                <p>A game-changer for remote work</p>
+              </div>
+              <div className={styles.Millions_box3_text2}>
+                <p>★★★★★</p>
+              </div>
+              <div className={styles.Millions_box3_text3}>
+                <p>
+                  I can track on my phone - a few taps and I'm ready to get onto
+                  my work.
+                </p>
+              </div>
+              <div className={styles.Millions_box3_text4}>
+                <p>— Kerri MacKay, Coordinator</p>
+              </div>
             </Box>
             {/* -------------------------------------------------------------------------- */}
             <Box className={styles.Millions_box3_text} height="200px">
-            <div  className={styles.Millions_box3_text1}><p>A game-changer for remote work</p></div>
-              <div  className={styles.Millions_box3_text2}><p>★★★★★</p></div>
-              <div  className={styles.Millions_box3_text3}><p>I can track on my phone - a few taps and I'm ready to get onto my work.</p></div>
-              <div  className={styles.Millions_box3_text4}><p>— Kerri MacKay, Coordinator</p></div>
+              <div className={styles.Millions_box3_text1}>
+                <p>A game-changer for remote work</p>
+              </div>
+              <div className={styles.Millions_box3_text2}>
+                <p>★★★★★</p>
+              </div>
+              <div className={styles.Millions_box3_text3}>
+                <p>
+                  I can track on my phone - a few taps and I'm ready to get onto
+                  my work.
+                </p>
+              </div>
+              <div className={styles.Millions_box3_text4}>
+                <p>— Kerri MacKay, Coordinator</p>
+              </div>
             </Box>
             {/* -------------------------------------------------------------------------- */}
             <Box className={styles.Millions_box3_text} height="200px">
-            <div  className={styles.Millions_box3_text1}><p>A game-changer for remote work</p></div>
-              <div  className={styles.Millions_box3_text2}><p>★★★★★</p></div>
-              <div  className={styles.Millions_box3_text3}><p>I can track on my phone - a few taps and I'm ready to get onto my work.</p></div>
-              <div  className={styles.Millions_box3_text4}><p>— Kerri MacKay, Coordinator</p></div>
+              <div className={styles.Millions_box3_text1}>
+                <p>A game-changer for remote work</p>
+              </div>
+              <div className={styles.Millions_box3_text2}>
+                <p>★★★★★</p>
+              </div>
+              <div className={styles.Millions_box3_text3}>
+                <p>
+                  I can track on my phone - a few taps and I'm ready to get onto
+                  my work.
+                </p>
+              </div>
+              <div className={styles.Millions_box3_text4}>
+                <p>— Kerri MacKay, Coordinator</p>
+              </div>
             </Box>
             {/* -------------------------------------------------------------------------- */}
             <Box className={styles.Millions_box3_text} height="200px">
-            <div  className={styles.Millions_box3_text1}><p>A game-changer for remote work</p></div>
-              <div  className={styles.Millions_box3_text2}><p>★★★★★</p></div>
-              <div  className={styles.Millions_box3_text3}><p>I can track on my phone - a few taps and I'm ready to get onto my work.</p></div>
-              <div  className={styles.Millions_box3_text4}><p>— Kerri MacKay, Coordinator</p></div>
+              <div className={styles.Millions_box3_text1}>
+                <p>A game-changer for remote work</p>
+              </div>
+              <div className={styles.Millions_box3_text2}>
+                <p>★★★★★</p>
+              </div>
+              <div className={styles.Millions_box3_text3}>
+                <p>
+                  I can track on my phone - a few taps and I'm ready to get onto
+                  my work.
+                </p>
+              </div>
+              <div className={styles.Millions_box3_text4}>
+                <p>— Kerri MacKay, Coordinator</p>
+              </div>
             </Box>
             {/* -------------------------------------------------------------------------- */}
             <Box className={styles.Millions_box3_text} height="200px">
-            <div  className={styles.Millions_box3_text1}><p>A game-changer for remote work</p></div>
-              <div  className={styles.Millions_box3_text2}><p>★★★★★</p></div>
-              <div  className={styles.Millions_box3_text3}><p>I can track on my phone - a few taps and I'm ready to get onto my work.</p></div>
-              <div  className={styles.Millions_box3_text4}><p>— Kerri MacKay, Coordinator</p></div>
+              <div className={styles.Millions_box3_text1}>
+                <p>A game-changer for remote work</p>
+              </div>
+              <div className={styles.Millions_box3_text2}>
+                <p>★★★★★</p>
+              </div>
+              <div className={styles.Millions_box3_text3}>
+                <p>
+                  I can track on my phone - a few taps and I'm ready to get onto
+                  my work.
+                </p>
+              </div>
+              <div className={styles.Millions_box3_text4}>
+                <p>— Kerri MacKay, Coordinator</p>
+              </div>
             </Box>
             {/* -------------------------------------------------------------------------- */}
             <Box className={styles.Millions_box3_text} height="200px">
-            <div  className={styles.Millions_box3_text1}><p>A game-changer for remote work</p></div>
-              <div  className={styles.Millions_box3_text2}><p>★★★★★</p></div>
-              <div  className={styles.Millions_box3_text3}><p>I can track on my phone - a few taps and I'm ready to get onto my work.</p></div>
-              <div  className={styles.Millions_box3_text4}><p>— Kerri MacKay, Coordinator</p></div>
+              <div className={styles.Millions_box3_text1}>
+                <p>A game-changer for remote work</p>
+              </div>
+              <div className={styles.Millions_box3_text2}>
+                <p>★★★★★</p>
+              </div>
+              <div className={styles.Millions_box3_text3}>
+                <p>
+                  I can track on my phone - a few taps and I'm ready to get onto
+                  my work.
+                </p>
+              </div>
+              <div className={styles.Millions_box3_text4}>
+                <p>— Kerri MacKay, Coordinator</p>
+              </div>
             </Box>
             {/* -------------------------------------------------------------------------- */}
             <Box className={styles.Millions_box3_text} height="200px">
-            <div  className={styles.Millions_box3_text1}><p>A game-changer for remote work</p></div>
-              <div  className={styles.Millions_box3_text2}><p>★★★★★</p></div>
-              <div  className={styles.Millions_box3_text3}><p>I can track on my phone - a few taps and I'm ready to get onto my work.</p></div>
-              <div  className={styles.Millions_box3_text4}><p>— Kerri MacKay, Coordinator</p></div>
+              <div className={styles.Millions_box3_text1}>
+                <p>A game-changer for remote work</p>
+              </div>
+              <div className={styles.Millions_box3_text2}>
+                <p>★★★★★</p>
+              </div>
+              <div className={styles.Millions_box3_text3}>
+                <p>
+                  I can track on my phone - a few taps and I'm ready to get onto
+                  my work.
+                </p>
+              </div>
+              <div className={styles.Millions_box3_text4}>
+                <p>— Kerri MacKay, Coordinator</p>
+              </div>
             </Box>
             {/* -------------------------------------------------------------------------- */}
           </SimpleGrid>

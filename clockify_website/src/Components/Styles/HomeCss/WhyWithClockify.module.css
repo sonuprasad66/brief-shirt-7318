@@ -1,3 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
 .Container{
     height: auto;
     width: 100%;
@@ -25,7 +32,7 @@
 .Advantage_box2{
     height: 80%;
     width: 85%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
     padding: 30px;
 }
@@ -46,26 +53,48 @@
 .Advantage_row_box_content{
 height: 70%;
 width: 75%;
-border: 1px solid red;
+/* border: 1px solid red; */
 }
 
+/* ==================================================================== */
 .Advantage_row_box_content1{
-    height: 45%;
+    height: auto;
 width: 100%;
-border: 1px solid red;
-
+/* border: 1px solid red; */
+padding: 20px 0px 20px 0px;
 }
+.Advantage_row_box_content1_h3{
+    color: #3D4853;
+    font-size: 16px;
+}
+.Advantage_row_box_content1_icon{
+font-size: 40px;
+padding: 10px;
+color: #03A9F4;
+}
+/* ==================================================================== */
 .Advantage_row_box_content2{
-    height: 45%;
+    height: auto;
 width: 100%;
-border: 1px solid red;
+/* border: 1px solid red; */
+padding: 20px 0px 20px 0px;
 
 }
+.Advantage_row_box_content2_p{
+    color: #78909C;
+    font-size: 16px;
+}
+/* ==================================================================== */
 .Advantage_row_box_content3{
-    height: 10%;
+    height: auto;
 width: 100%;
-border: 1px solid red;
+/* border: 1px solid red; */
+padding: 10px 0px 10px 0px;
 
+}
+.Advantage_row_box_content3_span{
+    font-size: 13px;
+    color: #03A9F4;
 }
 
 /* ======================================================================================= */

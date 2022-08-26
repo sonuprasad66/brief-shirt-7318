@@ -1,0 +1,9 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.Container_modal{
+    height: 900px;
+    width: 900px;
+}

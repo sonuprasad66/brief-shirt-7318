@@ -1,9 +1,47 @@
-import React from "react";
-import {Link} from "react-router-dom";
-import {Box, Button, SimpleGrid} from "@chakra-ui/react";
+import React, {useContext} from "react";
+import {Link, useNavigate} from "react-router-dom";
+import axios from "axios";
 import styles from "../Components/Styles/OtherPages/Login.module.css";
+import {useState} from "react";
+import {useEffect} from "react";
+import {AppContext} from "../AuthContext/AuthContextProvider";
+
+const getPost = (form) => {
+  // console.log(form);
+  return axios.post(`https://reqres.in/api/register`, {
+    email: form.name,
+    password: form.password,
+  });
+};
 
 export const Login = () => {
+  const navigate = useNavigate();
+  const {isAuth, userLogin} = useContext(AppContext);
+
+  const [form, setForm] = useState({
+    name: "",
+    password: "",
+  });
+
+  const handleInput = (e) => {
+    const {name, value} = e.target;
+    setForm({
+      ...form,
+      [name]: value,
+    });
+  };
+
+  const handleLogin = () => {
+    getPost(form)
+      .then((res) => {
+        console.log(res.data.token);
+        userLogin(res.data.token);
+      })
+
+      .catch((err) => console.log(err));
+    navigate("/tracker");
+  };
+
   return (
     <div className={styles.Container_Login}>
       <div className={styles.Container_Login1}>
@@ -32,21 +70,30 @@ export const Login = () => {
               <div>
                 <h2 className={styles.Input_h2}>Log In</h2>
               </div>
+
+              {/* =========================================Email===================================== */}
               <input
+                value={form.name}
+                name="name"
+                onChange={(e) => handleInput(e)}
                 className={styles.Input_email}
                 type="email"
                 placeholder="Enter Email"
               />
+              {/* =========================================Password=================================== */}
               <input
+                value={form.password}
+                name="password"
+                onChange={(e) => handleInput(e)}
                 className={styles.Input_email}
                 type="password"
                 placeholder="Enter Password"
               />
+              {/* ================================================================================= */}
               <div className={styles.Input_checkbox}>
                 <div className={styles.Input_checkbox1}>
                   <input type="checkbox" />
                   <label>
-                    {" "}
                     Stay logged <br />
                     <span className={styles.Input_checkbox_in}>in</span>{" "}
                   </label>
@@ -57,10 +104,11 @@ export const Login = () => {
                   </a>
                 </div>
               </div>
+              {/* ==========================================Submit btn=============================== */}
               <div className={styles.Signup_btn}>
-                {" "}
-                <button>LOG IN</button>
+                <button onClick={handleLogin}>LOG IN</button>
               </div>
+              {/* ================================================================================= */}
               <div className={styles.Signup_or}>
                 <div className={styles.Signup_l}></div>
                 <span>OR</span>
@@ -104,8 +152,8 @@ export const Login = () => {
       <div className={styles.Container_Login2}>
         <div className={styles.Container_Login2_text}>
           <div className={styles.Container_Login2_text1}>
-            <button  className={styles.Container_Login2_text1_btn}>NEW</button>
-            <h1  className={styles.Container_Login2_text1_h1}>Scheduling</h1>
+            <button className={styles.Container_Login2_text1_btn}>NEW</button>
+            <h1 className={styles.Container_Login2_text1_h1}>Scheduling</h1>
           </div>
 
           <div className={styles.Container_Login2_text2}>
@@ -116,7 +164,9 @@ export const Login = () => {
           </div>
 
           <div className={styles.Container_Login2_text3}>
-            <button  className={styles.Container_Login2_text3_btn}>SEE HOE IT WORKS</button>
+            <button className={styles.Container_Login2_text3_btn}>
+              SEE HOE IT WORKS
+            </button>
           </div>
         </div>
 

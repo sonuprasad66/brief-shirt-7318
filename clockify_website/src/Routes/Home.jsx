@@ -20,7 +20,7 @@ export const Home = () => {
       <WhyWithClockify />
       <WorldClassSupport />
       <StartWithClockify />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

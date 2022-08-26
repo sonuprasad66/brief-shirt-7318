@@ -1,7 +1,13 @@
 import React from "react";
+import {useNavigate} from "react-router-dom";
 import styles from "../Styles/HomeCss/StartWithClockify.module.css";
 
 export const StartWithClockify = () => {
+  const nevigate = useNavigate();
+  const handleStart = () => {
+    nevigate("/tracker");
+  };
+
   return (
     <div className={styles.World_Class_support}>
       <div className={styles.World_Class_support_box}>
@@ -18,8 +24,8 @@ export const StartWithClockify = () => {
         </div>
 
         <div className={styles.Header__button_div}>
-          <button className={styles.Header__button} colorScheme="blue">
-          Create FREE account
+          <button className={styles.Header__button} onClick={handleStart}>
+            Create FREE account
           </button>
         </div>
         <div className={styles.Header__text}>
