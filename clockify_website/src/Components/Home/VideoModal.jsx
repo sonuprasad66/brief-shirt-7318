@@ -66,17 +66,26 @@ export const VideoModal = () => {
         alt="v_play_img"
       />
 
-      <Modal onClose={onClose} size={size} isOpen={isOpen}>
+      <Modal onClose={onClose} size={sizes} isOpen={isOpen}>
         <ModalOverlay />
         <ModalContent>
-          <ModalHeader>Modal Title</ModalHeader>
           <ModalCloseButton>
             <img
               src="https://clockify.me/assets/images/close-button.svg"
               alt="c"
             />
           </ModalCloseButton>
-          <ModalBody>kjdfjfd</ModalBody>
+          <ModalBody>
+            <iframe
+              width="1366"
+              height="625"
+              src="https://www.youtube.com/embed/NMZhFs_b0Aw"
+              title="Clockify Tour"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </ModalBody>
         </ModalContent>
       </Modal>
     </>

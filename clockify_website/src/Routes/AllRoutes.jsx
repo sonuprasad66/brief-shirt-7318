@@ -21,7 +21,7 @@ export const AllRoutes = () => {
           path="/tracker"
           element={
             // <PrivateRoutes>
-              <TrackerPage />
+            <TrackerPage />
             // </PrivateRoutes>
           }
         />

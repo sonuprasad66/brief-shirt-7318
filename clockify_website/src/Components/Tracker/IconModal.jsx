@@ -25,9 +25,7 @@ export const IconModal = () => {
         <ModalContent>
           <ModalHeader>Modal Title</ModalHeader>
           <ModalCloseButton />
-          <ModalBody>
-            {/* <Lorem count={2} /> */}
-          </ModalBody>
+          <ModalBody>{/* <Lorem count={2} /> */}</ModalBody>
 
           <ModalFooter></ModalFooter>
         </ModalContent>
