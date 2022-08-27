@@ -1,0 +1,135 @@
+/* .Tracker_bg{
+    background-color: #ecf2f8;
+} */
+.DisplayBox{
+    height: auto;
+    width: 90%;
+    /* border: 1px solid blue; */
+    margin: 45px auto;
+    margin-left: 100px;
+}
+.Display_grid_box1{
+    display: flex;
+   
+    align-items: center;
+}
+.DisplayBox_1{
+    height: 80%;
+    width: 97%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.DisplayBox1_input{
+    height: 100%;
+    width: 85%;
+    border: 1px solid grey;
+}
+.DisplayBox1_input>input{
+height: 100%;
+width: 100%;
+margin: auto;
+/* border: 1px solid red; */
+}
+
+.DisplayBox_project{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.DisplayBox_project_span{
+    color: #03A9F4;
+    font-size: 15px;
+    margin-left: 8px;
+}
+.DisplayBox_project_span:hover{
+    text-decoration: none;
+}
+/* ######################################################################### */
+
+.Display_grid_box2{
+    display: flex;
+    align-items: center;
+}
+.DisplayBox_2{
+    height: 80%;
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+}
+/* ---------------------------------------------------------------------------- */
+
+.DisplayBox2_edit{
+    height: 100%;
+width: 20%;
+/* border: 1px solid red; */
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+.DisplayBox2_edit_img{
+    border-right: 1px  dashed rgb(206, 200, 200);
+    border-left: 1px  dashed rgb(206, 200, 200);
+    padding: 10px 20px 10px 25px;
+}
+/* ---------------------------------------------------------------------------- */
+.DisplayBox2_dollor{
+    height: 100%;
+    width: 20%;
+    /* border: 1px solid red; */
+    display: flex;
+align-items: center;
+padding-left: 20px;
+}
+.DisplayBox2_dollor_c{
+    border-right: 1px  dashed rgb(206, 200, 200);
+    padding: 10px 25px 10px 0px;
+}
+/* ---------------------------------------------------------------------------- */
+
+.DisplayBox2_start{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.DisplayBox2_start_counter{
+font-weight: 600;
+}
+
+.DisplayBox2_start_btn{
+height: 90%;
+width: 100px;
+background-color: #03A9F4;
+color: #FFFFFF;
+cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 15px;
+
+}
+
+
+/* ---------------------------------------------------------------------------- */
+
+.DisplayBox2_toggle{
+    height: 100%;
+    width: 10%;
+    /* border: 1px solid red; */
+    
+}
+.DisplayBox2_toggle>div{
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+}
+/* ---------------------------------------------------------------------------- */
