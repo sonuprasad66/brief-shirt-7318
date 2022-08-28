@@ -24,6 +24,11 @@
 }
 .Container_Tnavbar_box1_icon{
     font-size: 20px;
+   
+}
+.Container_Tnavbar_box1_icon:hover{
+  
+    cursor: pointer;
 }
 .Container_Tnavbar_box1_img{
     height: 25px;

@@ -25,6 +25,7 @@ export const DisplayBox = ({handleAdd}) => {
   const [text, setText] = useState("");
 
   let handleSubmit = () => {
+    console.log(text);
     handleAdd(text);
   };
 
@@ -33,6 +34,9 @@ export const DisplayBox = ({handleAdd}) => {
   let ref = useRef(null);
 
   let handleStart = () => {
+    if(toggle){
+
+    }
     if (ref.current !== null) return;
     ref.current = setInterval(() => {
       setTimer((time) => time + 1);
@@ -112,10 +116,11 @@ export const DisplayBox = ({handleAdd}) => {
               {/* _________________________________________________________________________________ */}
               <div className={styles.DisplayBox2_start_counter}>
                 {getTime(timer)}
-                <button className="Reset" onClick={handleReset}>
+                {/* <button className="Reset" onClick={handleReset}>
                   RESET
-                </button>
+                </button> */}
               </div>
+              
               <div
                 className={styles.DisplayBox2_start_btn}
                 onClick={handleStart}

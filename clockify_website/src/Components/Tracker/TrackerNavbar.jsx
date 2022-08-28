@@ -72,11 +72,18 @@ export const TrackerNavbar = () => {
         </div>
         {/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */}
         <div>
-          <img
+          <a href="/">
+            <img
+              className={styles.Container_Tnavbar_box1_img}
+              src="https://clockify.me/assets/images/clockify-logo.svg"
+              alt="l"
+            />
+          </a>
+          {/* <img
             className={styles.Container_Tnavbar_box1_img}
             src="https://clockify.me/assets/images/clockify-logo.svg"
             alt="l"
-          />
+          /> */}
         </div>
       </div>
       {/* -------------------------------------------------------------------------------------- */}

@@ -9,7 +9,7 @@ export const TrackerPage = () => {
     <div className={styles.Tracker_bg}>
       <TrackerNavbar />
       <DisplayBox />
-      <TodoList />
+      {/* <TodoList /> */}
     </div>
   );
 };
