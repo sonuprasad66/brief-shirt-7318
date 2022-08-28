@@ -1,0 +1,27 @@
+
+  .Ldropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .Ldropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    min-width: 220px;
+    overflow: auto;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    z-index: 1;
+    margin: 15px 0px 0px -170px;
+  }
+  
+  .Ldropdown-content a {
+    color: black;
+    padding: 15px 16px 10px 20px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .Ldropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
