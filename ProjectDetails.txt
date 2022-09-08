@@ -1,1 +1,8 @@
-Name:- Sonu Prasad
+Name :- Sonu Prasad
+This is a Indivisual Project that I have made in construct week of unit-4 at Masai School.
+Project_Name :- Clockify.me (Clone)
+Tech_Stack :- React JS, CSS, JavaScript, Chakra UI, React-Icons, etc.
+Functionalities :- All the page are responsive for small screen, Medium Screen and Large Screen also.
+Works :- Landing Page, Login Page, SignUp Page, Navbar, and after login Time Tracker Page, In this page Navbar,
+          Side bar, Add task, Add Project, With Timer, Log out, etc.
+Working_Time:- Four Days.
