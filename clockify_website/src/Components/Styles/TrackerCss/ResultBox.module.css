@@ -1,0 +1,98 @@
+
+.Container_Results{
+    height: 70px;
+    width: 90%;
+    /* border: 1px solid red; */
+    margin: auto;
+   
+   
+}
+
+.Result_box2_timer_count{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 22px;
+cursor: pointer;
+
+}
+
+.Container_Results_box1{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid red; */
+  
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+/* -------------------------------------------------------------- */
+.Container_Results_box2{
+    height: auto;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* border: 1px solid red; */
+}
+
+.Result_box1{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+/* --------------------------------------------------------------------- */
+.Result_box2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.Result_box2_logo{
+    height: 100%;
+    width: 25%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Result_box2_date{
+    height: 100%;
+    width: 25%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Result_box2_date>div{
+    height: 100%;
+    width: 33%;
+    /* border: 1px solid blue; */
+
+}
+/* ------------------------------------------------------------- */
+.Result_box2_timer{
+    height: 100%;
+    width: 40%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Result_box2_timer>div{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid blue; */
+
+}
+/* ---------------------------------------------------- */
+.Result_box2_delete{
+    height: 100%;
+    width: 10%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+

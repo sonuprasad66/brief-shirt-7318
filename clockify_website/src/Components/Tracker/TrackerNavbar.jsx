@@ -13,6 +13,7 @@ import {AppContext} from "../../AuthContext/AuthContextProvider";
 export const TrackerNavbar = () => {
   const [manageSidebar, setManageSidebar] = useState(false);
   const {isAuth, userLogin, userLogout} = useContext(AppContext);
+  const [menubtn, setMenu] = useState(false);
   console.log(isAuth);
   // {/*==========================================================*/}
   const handleDropdown = () => {
@@ -23,9 +24,11 @@ export const TrackerNavbar = () => {
     Logout();
   };
   const handleSidebar = () => {
+    setMenu(true);
     Sidebar();
   };
   const handleClose = () => {
+    setMenu(false);
     CloseSidebar();
   };
 
@@ -48,9 +51,9 @@ export const TrackerNavbar = () => {
           {/* <FaAlignJustify /> */}
 
           <div id="mySidebar" class="sidebar">
-            <a href="javascript:void(0)" class="closebtn" onClick={handleClose}>
+            {/* <a href="javascript:void(0)" class="closebtn" onClick={handleClose}>
               ×
-            </a>
+            </a> */}
             <div>TIME TRACKER</div>
             <div>CLIENTS</div>
             <div>REPORTS</div>
@@ -65,8 +68,12 @@ export const TrackerNavbar = () => {
           </div>
 
           <div>
-            <div onClick={handleSidebar}>
-              <FaAlignJustify />
+            <div
+              onClick={() => {
+                !menubtn ? handleSidebar() : handleClose();
+              }}
+            >
+              {!menubtn ? <FaAlignJustify /> : <FaAlignJustify />}
             </div>
           </div>
         </div>
