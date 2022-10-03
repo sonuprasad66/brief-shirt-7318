@@ -47,28 +47,29 @@
 
 
 
+
 <table>
 
   <tr>
     <td><img src="https://user-images.githubusercontent.com/101389401/193552804-2fa39ad8-34ae-4d7d-8ac1-62c25e13f9c3.png" alt="signup" /></td>
     <td><img src="https://user-images.githubusercontent.com/101389401/193552914-3f31fb56-02eb-45d2-97fc-dab4d04be348.png" alt="login" /></td>
   </tr>
-  <!---
+
   <tr>
-    <td><img src="user-images.githubusercontent.com/101389401/193555131-762ec533-6814-486f-909c-9ebc9d554f92.png" alt="dark" /></td>
-    <td><img src="user-images.githubusercontent.com/101389401/193553279-c5ec7061-a4fb-4f02-80b0-3cf5705346cf.png"  alt="light" /></td>
+    <td><img src="https://user-images.githubusercontent.com/101389401/193598706-818e9998-c02e-4847-985a-66804767d45e.png" alt="dark" /></td>
+    <td><img src="https://user-images.githubusercontent.com/101389401/193599191-9b51fdfb-18e3-4642-ac30-8af78571e5af.png"  alt="light" /></td>
   </tr>
-  
+   
   <tr>
-    <td><img src="user-images.githubusercontent.com/101389401/193553406-f8092b2c-6115-443d-99ec-8c9ceef982f3.png" alt="video" /></td>
-    <td><img src="user-images.githubusercontent.com/101389401/193553620-ab33980b-01d3-414f-b16c-5ac3a94b692f.png" alt="mobile" /></td>
+    <td><img src="https://user-images.githubusercontent.com/101389401/193553406-f8092b2c-6115-443d-99ec-8c9ceef982f3.png" alt="video" /></td>
+    <td><img src="https://user-images.githubusercontent.com/101389401/193553620-ab33980b-01d3-414f-b16c-5ac3a94b692f.png" alt="mobile" /></td>
   </tr>
   
    <tr>
-    <td><img src="user-images.githubusercontent.com/101389401/193554102-a41534ed-bce1-440a-8540-1a35f134e281.png" alt="sidebar" /></td>
-    <td><img src="user-images.githubusercontent.com/101389401/193554188-9952bc39-1909-42a3-ab54-7f43c7cf90a1.png" alt="project" /></td>
+    <td><img src="https://user-images.githubusercontent.com/101389401/193554102-a41534ed-bce1-440a-8540-1a35f134e281.png" alt="sidebar" /></td>
+    <td><img src="https://user-images.githubusercontent.com/101389401/193554188-9952bc39-1909-42a3-ab54-7f43c7cf90a1.png" alt="project" /></td>
   </tr>
-  -->
+
   
 </table>
 
