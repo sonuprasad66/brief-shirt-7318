@@ -1,6 +1,6 @@
 <h1 align="center">Clockify Clone</h1> 
 
-<h2 align="center">It's a Project Management web application with all the major functionalities</h2>
+<h3 align="center">Clockify is the most popular free time tracker and timesheet app for teams of all sizes. Unlike all the other time trackers, Clockify lets you have an unlimited number of users for free. Clockify is an online app that works in a browser, but you can also install it on your computer or phone.</h3>
 
 <br />
 <h1 align="center">Tech Stack</h1> 
